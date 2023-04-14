@@ -1,0 +1,30 @@
+h1{
+  color:blueviolet;
+  text-align: center;
+}
+
+
+button{
+  color:purple;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  font-size: 30px;
+  border-radius: 5px;
+
+}
+.buttons-container{
+  display: grid;
+  grid-template-columns:  repeat(4, 100px);
+
+}
+.calculator-input{
+  background-color: aquamarine;
+  color: blue;
+  font-size: 30px;
+  text-align: right;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 10px;
+}
